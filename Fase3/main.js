@@ -15,7 +15,7 @@ function calcular(){
             var mensaje1 = anyTraspas + "Aquest es un any de traspàs <br>";
             document.getElementById("dades").innerHTML += mensaje1;
         } else {
-            var mensaje2 = "Aquest no es un any de traspàs <br>";
+            var mensaje2 = anyTraspas + "Aquest no es un any de traspàs <br>";
             document.getElementById("dades").innerHTML = mensaje2;
         }
     }
